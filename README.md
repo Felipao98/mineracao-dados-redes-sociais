@@ -2,7 +2,7 @@
 
 Este repositório apresenta uma análise de dados completa de uma comunidade online, demonstrando um pipeline que integra **KDD (Descoberta de Conhecimento em Bases de Dados)**, **Processamento de Linguagem Natural (PLN)** e **Análise de Redes Sociais (SNA)**. A partir de dados do subreddit `r/faculdadeBR`, a análise mapeia a estrutura de interações dos usuários, identifica comunidades e caracteriza o foco temático de cada grupo, revelando as "bolhas" de discussão sobre o tema "TCC".
 
-![Grafo de Comunidades](https://i.imgur.com/vHq842a.jpeg)
+![Grafo de Comunidades](http://googleusercontent.com/file_content/0)
 *Visualização do grafo de interações com as comunidades de usuários destacadas por cor.*
 
 ## ✨ Habilidades Demonstradas
