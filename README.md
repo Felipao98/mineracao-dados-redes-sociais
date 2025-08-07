@@ -30,17 +30,17 @@ Este projeto destaca competências práticas nas seguintes áreas de Ciência de
     * Construção, manipulação e análise de grafos de interação social com `NetworkX`.
     * Visualização de redes para apresentar a topologia e as comunidades.
 
-## 📂 Estrutura do Projeto e dos Códigos
+## 📂 Estrutura do Projeto e Jornada Analítica
 
-Os scripts neste repositório representam uma jornada analítica evolutiva, onde cada um aprofunda a investigação sobre o mesmo conjunto de dados.
+Os scripts neste repositório representam uma jornada analítica evolutiva, onde cada um aprofunda a investigação sobre o mesmo conjunto de dados, seguindo uma progressão lógica:
 
-* **`1_kdd.py`:** O ponto de partida. Este script realiza uma análise de KDD sobre os **metadados** das postagens (score, número de comentários). O objetivo é encontrar padrões de engajamento utilizando clustering com K-Means.
+* **`1_caracterizacao.py`:** O ponto de partida. Este script foca na **Coleta, Estruturação e Análise Exploratória de Dados (EDA)**. Ele coleta os dados brutos, os organiza em um formato estruturado e realiza a engenharia de features (como `hour_of_day`, `selftext_length`), caracterizando o dataset inicial.
 
-* **`2_text_mining.py`:** A segunda etapa foca no **conteúdo textual** das postagens. Este script aplica técnicas de PLN para limpar o texto, vetorizá-lo com TF-IDF e, novamente com K-Means, realizar uma modelagem de tópicos para descobrir "o que" está sendo discutido.
+* **`2_kdd.py`:** A primeira abordagem de mineração. Utilizando os dados estruturados e as features criadas no passo anterior, este script aplica o processo de **KDD (Descoberta de Conhecimento em Bases de Dados)** sobre os **metadados** das postagens (score, número de comentários), usando K-Means para encontrar padrões de engajamento.
 
-* **`3_comunidade.py`:** O script principal e mais avançado. Ele eleva a análise para o nível de **rede social**, coletando não apenas posts, mas também as **interações** (comentários). Com `NetworkX`, ele constrói o grafo de usuários e aplica o método de Louvain para responder "quem" está falando com "quem", identificando as comunidades.
+* **`3_text_mining.py`:** A segunda abordagem foca no **conteúdo textual**. Este script aplica técnicas de PLN para limpar o texto, vetorizá-lo com TF-IDF e, novamente com K-Means, realizar uma **modelagem de tópicos** para descobrir "o que" está sendo discutido.
 
-* **`4_caracterizacao.py`:** A etapa final de integração. Este script pega as comunidades descobertas pelo `comunidade.py` e aplica as técnicas de mineração de texto para **caracterizar tematicamente** cada grupo, respondendo "sobre o que cada comunidade conversa".
+* **`4_comunidade.py`:** O script final e mais avançado, que integra os conceitos anteriores. Ele eleva a análise para o nível de **rede social**, coletando as **interações** entre usuários. Com `NetworkX` e o método de Louvain, ele identifica as comunidades ("quem" fala com "quem") e as caracteriza tematicamente, respondendo "sobre o que cada comunidade conversa".
 
 ## 🚀 Como Executar
 
