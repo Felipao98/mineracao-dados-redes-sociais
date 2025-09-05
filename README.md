@@ -2,9 +2,6 @@
 
 Este repositório apresenta uma análise de dados completa de uma comunidade online, demonstrando um pipeline que integra **KDD (Descoberta de Conhecimento em Bases de Dados)**, **Processamento de Linguagem Natural (PLN)** e **Análise de Redes Sociais (SNA)**. A partir de dados do subreddit `r/faculdadeBR`, a análise mapeia a estrutura de interações dos usuários, identifica comunidades e caracteriza o foco temático de cada grupo, revelando as "bolhas" de discussão sobre o tema "TCC".
 
-![Grafo de Comunidades](https://cienciadedatos.net/documentos/pygml02-detecion-comunidades-grafos-redes-python_files/figure-html/unnamed-chunk-5-1.png)
-*Visualização do grafo de interações com as comunidades de usuários destacadas por cor.*
-
 ## ✨ Habilidades Demonstradas
 
 Este projeto destaca competências práticas nas seguintes áreas de Ciência de Dados:
@@ -82,6 +79,5 @@ python comunidade.py
 
 Projeto desenvolvido por **Luis Felipe Marques Silva**  
 📌 Estudante de Ciência da Computação - UFSJ  
-📌 Apaixonado por **Data Science e Analytics**  
 
 🔗 [LinkedIn](https://linkedin.com/in/luisfelipemsilva) • [GitHub](https://github.com/Felipao98)
