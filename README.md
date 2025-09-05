@@ -78,8 +78,10 @@ python comunidade.py
 * A caracterização temática mostrou que diferentes comunidades se especializam em diferentes tipos de discussão, como **grupos de apoio emocional**, **nichos de debate técnico** por área de estudo e **redes de ajuda prática**.
 * A integração das três abordagens (KDD, PLN e SNA) forneceu uma visão muito mais rica e completa da dinâmica da comunidade do que qualquer uma das técnicas isoladamente.
 
-## 👤 Autor
+## 👨‍💻 Autor
 
-* **[Luis Felipe Marques Silva]**
-* **LinkedIn:** [www.linkedin.com/in/luisfelipemsilva]
-* **GitHub:** [www.github.com/Felipao98]
+Projeto desenvolvido por **Luis Felipe Marques Silva**  
+📌 Estudante de Ciência da Computação - UFSJ  
+📌 Apaixonado por **Data Science e Analytics**  
+
+🔗 [LinkedIn](https://linkedin.com/in/luisfelipemsilva) • [GitHub](https://github.com/Felipao98)
