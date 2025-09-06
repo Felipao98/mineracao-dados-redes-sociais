@@ -81,3 +81,6 @@ Projeto desenvolvido por **Luis Felipe Marques Silva**
 📌 Estudante de Ciência da Computação - UFSJ  
 
 🔗 [LinkedIn](https://linkedin.com/in/luisfelipemsilva) • [GitHub](https://github.com/Felipao98)
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
